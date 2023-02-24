@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM VALIDATION PROJECT</title>
+
+    <!-- link of icons from this link   "https://cdnjs.com/libraries/font-awesome" -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registeration form</h1>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="username">username</label>
+          <input type="text" name="" id="username" class="username" />
+          <!-- using icons     -->
+          <i class="fa fa-check"></i>
+          <!-- input icon -->
+          <i class="fa fa-close"></i>
+          <small>Error message</small>
+        </div>
+
+        <!-- EMAIL -->
+        <div class="form-control">
+          <label for="Email">Email</label>
+          <input type="text" name="" id="Email" class="Email" />
+          <!-- using icons     -->
+          <i class="fa-check"></i>
+          <!-- input icon -->
+          <i class="fa fa-close"></i>
+          <small>Error message</small>
+        </div>
+
+        <!-- password -->
+        <div class="form-control">
+          <label for="password">password</label>
+          <input type="password" name="" id="password" class="password" />
+          <!-- using icons     -->
+          <i class="fa fa-check"></i>
+          <!-- input icon -->
+          <i class="fa fa-close"></i>
+          <small>Error message</small>
+        </div>
+
+        <!-- confirm password -->
+        <div class="form-control">
+          <label for="confirm password">confirm password</label>
+          <input
+            type="password"
+            name=""
+            id="confirmpassword"
+            class="confirmpassword"
+          />
+          <!-- using icons     -->
+          <i class="fa fa-check"></i>
+          <!-- input icon -->
+          <i class="fa fa-close"></i>
+          <small>Error message</small>
+        </div>
+
+        <!-- button -->
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
